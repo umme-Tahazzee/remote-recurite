@@ -8,13 +8,13 @@ import AreYouReady from './sections/are-you-ready'
 
 const App = () => {
   return (
-    <main className=' w-full'> 
-      <Navbar />   
+    <main className=' w-full'>
+      <Navbar />
       <Hero />
-      <Globalresearch/>
-      <AreYouReady/>
-      <CommonQuestions/>
-      <Footer/>
+      <Globalresearch />
+      <AreYouReady />
+      <CommonQuestions />
+      <Footer />
     </main>
   )
 }
