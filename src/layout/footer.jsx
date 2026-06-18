@@ -33,7 +33,7 @@ const Footer = () => {
 
       {/* Footer with bg image */}
       <div
-        className="w-full z-0 relative"
+        className="w-full z-0 relative "
         style={{
           backgroundImage: `url(${footerBg})`,
           backgroundSize: "cover",
@@ -42,8 +42,8 @@ const Footer = () => {
           minHeight: "600px",
         }}
       >
-        <div className="absolute  w-full px-12 flex justify-between  bottom-40">
-          <img src={logo} alt="RemoteRecruit" className="h-10" />
+        <div className="absolute  w-full px-2 md:px-12  flex  justify-between  bottom-40">
+          <img src={logo} alt="RemoteRecruit" className="h-10 w-fit" />
           <div className="flex items-center gap-3 ">
             {socialIcons.map((social, index) => (
               <button
