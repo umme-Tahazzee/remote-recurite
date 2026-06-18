@@ -16,10 +16,10 @@ const AreYouReady = () => {
       <div className="absolute left-64 top-6 h-[53px] w-[53px] rounded-full bg-[linear-gradient(132.56deg,#FFED43_5.63%,#F29939_106.18%)]" />
 
       {/* Main Content */}
-      <div className="relative mx-auto flex max-w-7xl items-center justify-between gap-12 px-6">
+      <div className="relative mx-auto flex flex-col md:flex-row max-w-7xl items-center justify-between gap-12 px-6">
 
         {/* Left Image Card */}
-        <div className="relative">
+        <div className="order-2 md:order-1 relative">
           <div className="rounded-[40px] bg-white p-4 shadow-[15px_44px_108px_rgba(49,89,211,0.12)]">
             <div className="overflow-hidden rounded-[30px] bg-[#8E80FC]">
               <img
@@ -32,7 +32,7 @@ const AreYouReady = () => {
         </div>
 
         {/* Right Content */}
-        <div className="max-w-xl">
+        <div className="order-1 md:order-2 max-w-xl">
           <p className="text-sm font-semibold tracking-widest text-[#1E3E85]">
             Are you ready?
           </p>

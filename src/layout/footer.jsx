@@ -6,7 +6,7 @@ import {
   FaLinkedinIn,
   FaSnapchatGhost,
 } from "react-icons/fa";
-import footerLogo from '../assets/footerLgog.png'
+import footerLogo from "../assets/footerLgog.png";
 
 import Pricingcard from "../ui/pricing-card";
 import footerBg from "../assets/footerB.png";
@@ -21,15 +21,14 @@ const socialIcons = [
 
 const Footer = () => {
   return (
-    <section className="relative  bg-white pt-10  ">
+    <section className="relative  bg-white pt-10 bottom-0 ">
       <h1 className="text-[32px] text-black font-bold text-center mb-10">
         Help Is One Click Away
       </h1>
 
       {/* Pricing cards */}
       <div className="absolute w-full flex items-center justify-center text-center">
-        <Pricingcard/>
-
+        <Pricingcard />
       </div>
 
       {/* Footer with bg image */}
@@ -40,7 +39,7 @@ const Footer = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          minHeight: "480px",
+          minHeight: "600px",
         }}
       >
         <div className="absolute  w-full px-12 flex justify-between  bottom-40">
